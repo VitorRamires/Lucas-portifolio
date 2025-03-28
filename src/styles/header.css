@@ -1,0 +1,58 @@
+.header {
+  position: sticky;
+  top: 3%;
+  margin: 35px auto;
+  width: 1650px;
+  max-width: 95%;
+  height: 90px;
+  background-color: var(--headerBg);
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 55px;
+  border-radius: 5px 0 0 5px;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 35px;
+  justify-content: start;
+  align-items: center;
+}
+
+.header nav ul a {
+  color: var(--white);
+  font-size: 1.2rem;
+}
+
+.header-extras,
+.languages ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.header-extras {
+  flex-direction: row-reverse;
+  height: 100%;
+  color: var(--white);
+}
+
+.L {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  max-width: 100%;
+  height: 100%;
+  background-color: var(--blue);
+  font-size: 4rem;
+  border-radius: 0 5px 5px 0;
+}
+
+.L p {
+  text-shadow: 1px 1px 5px #00000041;
+  font-family: "Stencil one";
+}
