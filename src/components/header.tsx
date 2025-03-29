@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import BrasilFlag from "../assets/images/brasil.png";
+import EuaFlag from "../assets/images/estados-unidos.png";
 
 export function Header() {
   return (
@@ -9,10 +11,8 @@ export function Header() {
             <p>L</p>
           </div>
           <div className="languages">
-            <ul>
-              <li>Brasil</li>
-              <li>EUA</li>
-            </ul>
+            <img src={BrasilFlag} alt="" />
+            <img src={EuaFlag} alt="" />
           </div>
         </div>
         <nav>

@@ -29,11 +29,17 @@
 }
 
 .header-extras,
-.languages ul {
+.languages  {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 15px;
+}
+
+.languages img{
+  width: 50px;
+  max-width: 100%;
+  cursor: pointer;
 }
 
 .header-extras {
