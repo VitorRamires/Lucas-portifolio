@@ -1,3 +1,4 @@
 @import url(global.css);
 @import url(header.css);
-@import url(banner.css);
+@import url(./pagina-inicial-styles/banner.css);
+@import url(./pagina-inicial-styles/bannerCards.css);

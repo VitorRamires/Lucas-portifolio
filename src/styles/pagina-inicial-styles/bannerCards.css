@@ -1,0 +1,70 @@
+.banner-cards {
+  position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  gap: 35px;
+  z-index: 5;
+  box-shadow: 0 -30px 30px var(--backgroundColor);
+}
+
+.card {
+  position: relative;
+  width: 33.3%;
+  padding: 35px;
+  min-height: 300px;
+  background-color: var(--dark1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 15px 24px 14px 0 #00000054;
+  cursor: pointer;
+}
+
+.card:nth-child(2) {
+  bottom: 30px;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: var(--blue);
+  opacity: 1;
+  transition: .2s;
+}
+
+.card-title h2 {
+  font-family: "Saira Condensed light";
+  font-size: 3rem;
+}
+
+.card-title img {
+  width: 70px;
+  height: auto;
+}
+
+.card-text {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  padding:25px;
+  text-align: center;
+  transition: .2s;
+  color: var(--white);
+}
+
+.show-text .card-text {
+  opacity: 1;
+}
+
+.show-text .card-title{
+  opacity: 0;
+}

@@ -21,13 +21,13 @@ export function Header() {
               <NavLink to="/">Sobre</NavLink>
             </li>
             <li>
-              <NavLink to="/">Projetos</NavLink>
-            </li>
-            <li>
               <NavLink to="/">Serviços</NavLink>
             </li>
             <li>
               <NavLink to="/">Contato</NavLink>
+            </li>
+            <li>
+              <NavLink to="/project">Projetos</NavLink>
             </li>
             <li>
               <NavLink to="/experience">Experiências</NavLink>

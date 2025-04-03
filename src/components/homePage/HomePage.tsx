@@ -1,4 +1,4 @@
-import { Banner } from "./banner";
+import { Banner } from "./banner/banner";
 
 export function HomePage() {
   return (

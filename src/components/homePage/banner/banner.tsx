@@ -1,5 +1,6 @@
-import mainImage from "../../assets/images/lucas.png";
-import decorationMainImage from "../../assets/icons/main-image.svg";
+import mainImage from "../../../../src/assets/images/lucas.png";
+import decorationMainImage from "../../../../src/assets/icons/main-image.svg";
+import { BannerCards } from "./cards";
 
 export function Banner() {
   return (
@@ -18,12 +19,17 @@ export function Banner() {
           </div>
           <div className="main-image">
             <img className="image" src={mainImage} alt="" />
-            <img className="decoration-image" src={decorationMainImage} alt="" />
+            <img
+              className="decoration-image"
+              src={decorationMainImage}
+              alt=""
+            />
           </div>
         </div>
         <div className="overlay"></div>
         <div className="banner-bg"></div>
       </div>
+      <BannerCards />
     </>
   );
 }

@@ -65,7 +65,7 @@
 
 .main-image {
   position: relative;
-  width: 450px;
+  width: 480px;
   max-width: 50%;
   min-width: 350px;
 }
@@ -75,7 +75,7 @@
   width: 100%;
   height: auto;
   z-index: 4;
-  transform: translate(-5%, 1.5%);
+  transform: translate(-5%, 1.3%);
 }
 
 .decoration-image {
@@ -85,4 +85,17 @@
   width: 100%;
   height: auto;
   z-index: 3;
+}
+
+.main-image::after {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 1250px;
+  max-width: 100%;
+  height: 2px;
+  background-color: #ffffff34;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
 }
