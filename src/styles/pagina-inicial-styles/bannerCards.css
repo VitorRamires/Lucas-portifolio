@@ -22,6 +22,7 @@
   justify-content: center;
   box-shadow: 15px 24px 14px 0 #00000054;
   cursor: pointer;
+  overflow: hidden;
 }
 
 .card:nth-child(2) {
@@ -29,14 +30,16 @@
 }
 
 .card-title {
+  position: relative;
   display: flex;
+  top:0;
   flex-direction: row-reverse;
   align-items: center;
   justify-content: center;
   gap: 20px;
   color: var(--blue);
   opacity: 1;
-  transition: .2s;
+  transition: 0.5s;
 }
 
 .card-title h2 {
@@ -50,21 +53,32 @@
 }
 
 .card-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   opacity: 0;
   position: absolute;
-  top: 50%;
+  top: -350px;
   left: 0;
-  transform: translateY(-50%);
-  padding:25px;
+  transform: translateY(0);
+  padding: 25px;
   text-align: center;
-  transition: .2s;
+  transition: 0.5s;
   color: var(--white);
+  width: 100%;
+  height: 100%;
+  background-color: var(--blue2);
+  border-radius: 8px;
 }
 
 .show-text .card-text {
   opacity: 1;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
 }
 
-.show-text .card-title{
+.show-text .card-title {
   opacity: 0;
+  top:300px;
 }
