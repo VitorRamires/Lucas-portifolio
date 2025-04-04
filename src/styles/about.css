@@ -46,7 +46,6 @@
 }
 
 .about p {
-  font-family: "Saira Condensed light";
   margin: 25px 0;
   font-size: 1.1rem;
 }
@@ -67,7 +66,36 @@
   color: #777777;
 }
 
-.results,
+.resume {
+  font-family: "Saira Condensed light";
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+  gap: 8px 25px;
+}
+
+.results p {
+  width: 100%;
+  text-align: center;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.results p:nth-child(even) {
+  background-color: #242424;
+}
+
+.results p:nth-child(odd) {
+  background-color: #50dcff;
+  color: #242424;
+}
+
+.resume,
 .skills {
   display: none;
 }
