@@ -7,6 +7,7 @@
   max-width: 95%;
   height: 90px;
   background-color: var(--headerBg);
+  backdrop-filter: blur(10px);
   display: flex;
   flex-direction: row-reverse;
   align-items: center;

@@ -6,20 +6,18 @@ interface CardContent {
 }
 
 export function Card({ title, description }: CardContent) {
-  const [showCardClass, setShowCardClass] = useState("");
+  const [showCardClass, setShowCardClass] = useState(true);
 
   function handleCardText() {
-    setShowCardClass("show-text");
-    if (showCardClass == "show-text") {
-      setShowCardClass("");
-    } else {
-      setShowCardClass("show-text");
-    }
+    setShowCardClass(!showCardClass);
   }
 
   return (
     <>
-      <div className={`card ${showCardClass}`} onClick={handleCardText}>
+      <div
+        className={`card ${showCardClass ? "" : "show-text"}`}
+        onClick={handleCardText}
+      >
         <div className="card-title">
           <h2>{title}</h2>
           <img src="/src/assets/icons/focus.svg" />
