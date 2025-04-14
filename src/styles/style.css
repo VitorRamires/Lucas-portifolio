@@ -1,5 +1,5 @@
 @import url(global.css);
 @import url(header.css);
-@import url(./pagina-inicial-styles/banner.css);
-@import url(./pagina-inicial-styles/bannerCards.css);
+@import url(./banner-styles/banner.css);
+@import url(./banner-styles/bannerCards.css);
 @import url(about.css)

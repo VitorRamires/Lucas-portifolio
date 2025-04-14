@@ -62,20 +62,49 @@ export function Sobre() {
             </p>
           </div>
           <div className="skills">
-            <div className="skill">Skill placeholder</div>
-            <div className="skill">Skill placeholder</div>
-            <div className="skill">Skill placeholder</div>
-            <div className="skill">Skill placeholder</div>
-            <div className="skill">Skill placeholder</div>
+            <div className="skill">COE, ITIL & BPM</div>
+            <div className="skill">Comunicação e Oratória</div>
+            <div className="skill">Contratos</div>
+            <div className="skill">Controle Financeiro</div>
+            <div className="skill">Definição e Melhoria de Processos</div>
+            <div className="skill">Estimativas, Metas e KPIs</div>
+            <div className="skill">Estratégia Financeira</div>
+            <div className="skill">Feedback 1-1</div>
+            <div className="skill">Fluxo de Entrega</div>
+            <div className="skill">Gestão de Conflitos</div>
+            <div className="skill">Gestão e Liderança de Equipes</div>
+            <div className="skill">Inteligência Emocional</div>
+            <div className="skill">Melhoria Contínua</div>
+            <div className="skill">MySQL, Python, Javascript & PHP</div>
+            <div className="skill">Negociação com Clientes</div>
+            <div className="skill">PMO, PDCA & SDLC</div>
+            <div className="skill">Precificação e Orçamento</div>
+            <div className="skill">Pré-VendasReports Financeiros</div>
+            <div className="skill">SCRUM, KANBAN, LEAN, WATERFALL</div>
+            <div className="skill">Transformação Digital</div>
+            <div className="skill">Treinamentos e Mentorias</div>
+            <div className="skill">Visão Tática de Relacionamento</div>
+            <div className="skill">Produtividade</div>
           </div>
         </div>
 
         <div className="extra-details">
-          <p>Tempo de mercado: <span>3 anos</span></p>
-          <p>Línguas: <span>Português e Inglês</span></p>
-          <p>Alcance: <span>Internacional</span></p>
-          <p>Idade: <span>32 anos</span></p>
+          <p>
+            Tempo de mercado: <span>3 anos</span>
+          </p>
+          <p>
+            Línguas: <span>Português e Inglês</span>
+          </p>
+          <p>
+            Alcance: <span>Internacional</span>
+          </p>
+          <p>
+            Idade: <span>32 anos</span>
+          </p>
         </div>
+
+        
+
       </div>
     </>
   );
