@@ -1,3 +1,5 @@
+/* ========= About geral =========*/
+
 .about {
   position: relative;
   width: 1850px;
@@ -16,6 +18,15 @@
 .results,
 .resume {
   margin: 75px 0 125px 0;
+  display: none;
+}
+
+.optionOn {
+  display: grid;
+}
+
+.about span {
+  color: var(--blue);
 }
 
 .about-decoration {
@@ -66,12 +77,29 @@
   color: #777777;
 }
 
+
+.about-panel::-webkit-scrollbar {
+  width: 6px;
+  background: #0000001c;
+  transform: translateX(-130px);
+}
+
+.about-panel::-webkit-scrollbar-track {
+  background: #0000001c;
+}
+
+.about-panel::-webkit-scrollbar-thumb {
+  background: #00f7ff;
+  border-radius: 5px;
+}
+
+/* ========= Resumo ========= */
 .resume {
   font-family: "Saira Condensed light";
 }
 
+/* ========= Resultado ========= */
 .results {
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   gap: 8px 25px;
 }
@@ -95,17 +123,8 @@
   color: #242424;
 }
 
-.resume,
-.results {
-  display: none;
-}
-
-.about span {
-  color: var(--blue);
-}
-
+/* ========= Skills ========= */
 .skills {
-  display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   flex-wrap: wrap;
   gap: 15px;
@@ -121,4 +140,32 @@
   background-color: #676767;
   font-size: 1.2rem;
   border-radius: 5px;
+}
+
+.change-buttons {
+  position: relative;
+  top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 15px;
+}
+
+.change-btn {
+  width: 120px;
+  max-width: 100%;
+  background-color: #616161;
+  padding: 15px 10px;
+  cursor: pointer;
+  color: #a1a1a1;
+  transition: 0.2s;
+}
+
+.change-btn.activated {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+.change-btn p {
+  margin: 0;
 }

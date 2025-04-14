@@ -1,4 +1,13 @@
+import { useState } from "react";
+
 export function Sobre() {
+  const [aboutOption, setAboutOption] = useState("resumo");
+
+  function handleAboutChanger(event: React.MouseEvent) {
+    const targetOption = event.currentTarget.getAttribute("data-option") || "";
+    setAboutOption(targetOption.toLowerCase());
+  }
+
   return (
     <>
       <div className="about">
@@ -6,7 +15,10 @@ export function Sobre() {
         <div className="about-decoration"></div>
 
         <div className="about-panel">
-          <div className="resume">
+          <div
+            className={`resume ${aboutOption === "resumo" ? "optionOn" : ""} `}
+            data-option="resumo"
+          >
             <p>
               Atuando como gestor de projetos e operações, adquiri experiência
               nacional e internacional com clientes da LATAM e dos EUA. Liderei
@@ -41,7 +53,12 @@ export function Sobre() {
               mercado de trabalho.
             </p>
           </div>
-          <div className="results">
+          <div
+            className={`results  ${
+              aboutOption === "resultados" ? "optionOn" : ""
+            } `}
+            data-option="resultados"
+          >
             <p>
               Implementação de E-Commerce em empresas, rentabilizando mais de R$
               2,4 milhões anuais.
@@ -61,7 +78,10 @@ export function Sobre() {
               em clientes.
             </p>
           </div>
-          <div className="skills">
+          <div
+            className={`skills  ${aboutOption === "skills" ? "optionOn" : ""} `}
+            data-option="skills"
+          >
             <div className="skill">COE, ITIL & BPM</div>
             <div className="skill">Comunicação e Oratória</div>
             <div className="skill">Contratos</div>
@@ -103,8 +123,35 @@ export function Sobre() {
           </p>
         </div>
 
-        
-
+        <div className="change-buttons">
+          <div
+            onClick={handleAboutChanger}
+            className={`resume-btn change-btn ${
+              aboutOption === "resumo" ? "activated" : ""
+            }`}
+            data-option="resumo"
+          >
+            <p>Resumo</p>
+          </div>
+          <div
+            onClick={handleAboutChanger}
+            className={`results-btn change-btn ${
+              aboutOption === "resultados" ? "activated" : ""
+            }`}
+            data-option="resultados"
+          >
+            <p>Resultados</p>
+          </div>
+          <div
+            onClick={handleAboutChanger}
+            className={`skills-btn change-btn ${
+              aboutOption === "skills" ? "activated" : ""
+            }`}
+            data-option="skills"
+          >
+            <p>Skills</p>
+          </div>
+        </div>
       </div>
     </>
   );
