@@ -1,5 +1,5 @@
-import mainImage from "../../../../src/assets/images/lucas.png";
-import decorationMainImage from "../../../../src/assets/icons/main-image.svg";
+import mainImage from "@/assets/images/lucas.png";
+import decorationMainImage from "@/assets/icons/main-image.svg";
 import { BannerCards } from "./cards";
 
 export function Banner() {

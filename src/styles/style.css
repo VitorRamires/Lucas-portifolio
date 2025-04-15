@@ -2,4 +2,5 @@
 @import url(header.css);
 @import url(./banner-styles/banner.css);
 @import url(./banner-styles/bannerCards.css);
-@import url(about.css)
+@import url(about.css);
+@import url(technologies.css);
