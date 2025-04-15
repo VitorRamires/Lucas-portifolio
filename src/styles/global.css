@@ -76,16 +76,17 @@ img {
   left: 0;
   background: linear-gradient(
     180deg,
-    #2a2a2acb,
+    var(--backgroundColor),
+    #141414e8,
+    #141414cb,
     #141414c2,
     var(--backgroundColor)
   );
   z-index: 2;
 }
 
-
-.center{
+.center {
   width: 1450px;
   max-width: 90%;
-  margin:0 auto;
+  margin: 0 auto;
 }
