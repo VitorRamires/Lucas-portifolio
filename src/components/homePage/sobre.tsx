@@ -13,7 +13,6 @@ export function Sobre() {
       <div className="about">
         <h2>Sobre mim</h2>
         <div className="about-decoration"></div>
-
         <div className="about-panel">
           <div
             className={`resume ${aboutOption === "resumo" ? "optionOn" : ""} `}
@@ -100,7 +99,7 @@ export function Sobre() {
             <div className="skill">PMO, PDCA & SDLC</div>
             <div className="skill">Precificação e Orçamento</div>
             <div className="skill">Pré-VendasReports Financeiros</div>
-            <div className="skill">SCRUM, KANBAN, LEAN, WATERFALL</div>
+            <div className="skill">Scrum, Kanbam, Lean, Waterfall</div>
             <div className="skill">Transformação Digital</div>
             <div className="skill">Treinamentos e Mentorias</div>
             <div className="skill">Visão Tática de Relacionamento</div>

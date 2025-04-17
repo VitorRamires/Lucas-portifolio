@@ -8,7 +8,7 @@ export function Technologies() {
   return (
     <>
       <section className="technologies"></section>
-      <div className="center">
+        <div className="center">
         <div className="tech-title">Tecnologias</div>
         <div className="tech-box">
           <div className="tech">
@@ -27,7 +27,7 @@ export function Technologies() {
             <img src={SalesSrc} alt="" />
           </div>
         </div>
-      </div>
+        </div>
     </>
   );
 }

@@ -44,6 +44,11 @@
   src: url(../assets/fonts/Saira_Stencil_One/SairaStencilOne-Regular.ttf);
 }
 
+@font-face {
+  font-family: "Saira";
+  src: url(../assets/fonts/Saira/Saira.ttf);
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -79,7 +84,7 @@ img {
     var(--backgroundColor),
     #141414e8,
     #141414cb,
-    #141414c2,
+    #141414db,
     var(--backgroundColor)
   );
   z-index: 2;

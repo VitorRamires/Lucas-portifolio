@@ -2,7 +2,7 @@
 
 .about {
   position: relative;
-  width: 1850px;
+  width: 1650px;
   max-width: 95%;
   text-align: center;
   color: #ffffff;
@@ -12,6 +12,7 @@
   margin: 0 auto;
   border-radius: 20px;
   bottom: 45px;
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.356);
 }
 
 .skills,
@@ -127,7 +128,7 @@
 .skills {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 25px;
 }
 
 .skill {
@@ -136,10 +137,12 @@
   justify-content: center;
   width: 100%;
   max-width: 100%;
-  padding: 10px;
+  min-height: 70px;
   background-color: #676767;
   font-size: 1.2rem;
   border-radius: 5px;
+  box-shadow: 10px 5px 10px 0 rgba(0, 0, 0, 0.356);
+  padding: 0 10px;
 }
 
 .change-buttons {
