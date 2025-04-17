@@ -17,36 +17,43 @@
 @font-face {
   font-family: "Saira Condensed extraBold";
   src: url(../assets/fonts/Saira_Condensed/SairaCondensed-ExtraBold.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Saira Condensed Bold";
   src: url(../assets/fonts/Saira_Condensed/SairaCondensed-Bold.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Saira Condensed light";
   src: url(../assets/fonts/Saira_Condensed/SairaCondensed-Light.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Saira Condensed regular";
   src: url(../assets/fonts/Saira_Condensed/SairaCondensed-Regular.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Saira Condensed semiBold";
   src: url(../assets/fonts/Saira_Condensed/SairaCondensed-SemiBold.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Stencil One";
   src: url(../assets/fonts/Saira_Stencil_One/SairaStencilOne-Regular.ttf);
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Saira";
   src: url(../assets/fonts/Saira/Saira.ttf);
+  font-display: swap;
 }
 
 * {

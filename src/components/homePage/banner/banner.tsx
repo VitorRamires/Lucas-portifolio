@@ -1,4 +1,4 @@
-import mainImage from "@/assets/images/lucas.png";
+import mainImage from "@/assets/images/lucas.webp";
 import decorationMainImage from "@/assets/icons/main-image.svg";
 import { BannerCards } from "./cards";
 
@@ -18,7 +18,7 @@ export function Banner() {
             </div>
           </div>
           <div className="main-image">
-            <img className="image" src={mainImage} alt="" />
+            <img className="image" src={mainImage} alt=""/>
             <img
               className="decoration-image"
               src={decorationMainImage}
@@ -27,7 +27,7 @@ export function Banner() {
           </div>
         </div>
         <div className="overlay"></div>
-        <div className="banner-bg"></div>
+        <div className="banner-bg" ></div>
       </div>
       <BannerCards />
     </>
