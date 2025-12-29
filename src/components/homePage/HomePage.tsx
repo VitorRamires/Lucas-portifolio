@@ -1,7 +1,6 @@
 import { useEffect } from "react";
 import { Footer } from "../footer";
 import { Banner } from "./banner/banner";
-import { Contact } from "./contato";
 import { ProjectsHome } from "./projetosHome";
 import { Sobre } from "./sobre";
 import { useLocation } from "react-router-dom";
@@ -24,7 +23,6 @@ export function HomePage() {
       <Sobre />
       <Highlight />
       <ProjectsHome />
-      <Contact />
       <Footer />
     </>
   );
