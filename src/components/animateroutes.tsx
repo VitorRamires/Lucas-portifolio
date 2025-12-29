@@ -1,6 +1,5 @@
 import { Route, Routes } from "react-router-dom";
 import { Experiences } from "./experiencias/experiecias";
-import { Volunteer } from "./voluntario/voluntario";
 import { HomePage } from "./homePage/HomePage";
 import { Project } from "./projetos/projeto";
 import { Services } from "./serviços";
@@ -13,7 +12,6 @@ export function AnimateRoutes() {
         <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<Services />} />
         <Route path="/experience" element={<Experiences />} />
-        <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/project" element={<Project />} />
         <Route path="/technologies" element={<Technologies />} />
       </Routes>
