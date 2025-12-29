@@ -12,10 +12,12 @@ import { useTranslation } from "react-i18next";
 
 export function SliderProjects() {
   const [activeIndex, setActiveIndex] = useState(0);
-  const swiperRef = useRef<SwiperType | null>(null);
   const [showFixedButtons, setShowFixedButtons] = useState(false);
+
+  const swiperRef = useRef<SwiperType | null>(null);
   const swiperContainerRef = useRef<HTMLDivElement | null>(null);
-   const { t } = useTranslation();
+
+  const { t } = useTranslation();
 
   useEffect(() => {
     function onScroll() {
@@ -59,9 +61,9 @@ export function SliderProjects() {
           <img src={arrow} alt="" />
         </div>
         <Swiper
-          slidesPerView={3}
+          slidesPerView={2}
           spaceBetween={50}
-          loop={true}
+          loop={false}
           centeredSlides={true}
           pagination={{
             clickable: true,
@@ -75,11 +77,11 @@ export function SliderProjects() {
           className="mySwiper"
           onSlideChange={(swiper) => storageSlideIndex(swiper.realIndex)}
           breakpoints={{
-            1070: { slidesPerView: 3 },
-            550: { slidesPerView: 2 },
-            0: { slidesPerView: 1 },
+            350: { slidesPerView: 1 },
+            650: { slidesPerView: 2 },
           }}
           onSwiper={(swiper) => (swiperRef.current = swiper)}
+          initialSlide={1}
         >
           {projectsInfos.map((project) => {
             return (
@@ -94,7 +96,6 @@ export function SliderProjects() {
             );
           })}
         </Swiper>
-        
         <div className="next-btn btn-swiper">
           <img src={arrow} alt="" />
         </div>

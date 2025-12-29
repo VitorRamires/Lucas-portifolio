@@ -168,16 +168,6 @@ export function Header() {
                 {t("header.technologies")}
               </HashLink>
             </li>
-            <li>
-              <HashLink
-                to="/services"
-                smooth={true}
-                onClick={handleNavLinkClick}
-                className={isPathActive("/services") ? "active" : ""}
-              >
-                {t("header.service")}
-              </HashLink>
-            </li>
           </ul>
         </nav>
       </div>
