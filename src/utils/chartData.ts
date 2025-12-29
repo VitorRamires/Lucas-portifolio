@@ -1,13 +1,13 @@
 export const data = [
   {
-    name: "project.chartData.energia",
-    quantidade: 8,
-    fill: "#01BAEF",
-  },
-  {
     name: "project.chartData.industrial",
     quantidade: 12,
     fill: "#CEB5A7",
+  },
+  {
+    name: "project.chartData.energia",
+    quantidade: 8,
+    fill: "#01BAEF",
   },
   {
     name: "project.chartData.tecnologia",
@@ -18,6 +18,11 @@ export const data = [
     name: "project.chartData.financeiro",
     quantidade: 2,
     fill: "#20BF55",
+  },
+  {
+    name: "project.chartData.desenvolvimento",
+    quantidade: 2,
+    fill: "#D95D39",
   },
   {
     name: "project.chartData.seguro",
@@ -35,18 +40,8 @@ export const data = [
     fill: "#E3170A",
   },
   {
-    name: "project.chartData.cosmeticos",
-    quantidade: 1,
-    fill: "#F7B32B",
-  },
-  {
     name: "project.chartData.automotiva",
     quantidade: 1,
     fill: "#C83E4D",
-  },
-  {
-    name: "project.chartData.turismo",
-    quantidade: 1,
-    fill: "#00BD9D",
   },
 ];

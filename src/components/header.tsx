@@ -178,15 +178,6 @@ export function Header() {
                 {t("header.service")}
               </HashLink>
             </li>
-            <li>
-              <HashLink
-                to="/volunteer"
-                className={isPathActive("/volunteer") ? "active" : ""}
-                onClick={handleNavLinkClick}
-              >
-                {t("header.volunteer")}
-              </HashLink>
-            </li>
           </ul>
         </nav>
       </div>

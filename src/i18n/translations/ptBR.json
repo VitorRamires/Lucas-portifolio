@@ -118,15 +118,16 @@
       },
       "chartData": {
         "energia": "Energia",
-        "tecnologia": "Tecnologia",
+        "tecnologia": "Tecologia",
         "industrial": "Industrial",
         "financeiro": "Financeiro",
         "seguro": "Seguro",
-        "agricola": "Agrícola",
+        "agricola": "Agricola",
         "farma": "Farma",
         "cosmeticos": "Cosméticos",
-        "automotiva": "Automotiva",
-        "turismo": "Turismo"
+        "automotiva": "Automotivo",
+        "turismo": "Turismo",
+        "desenvolvimento": "Desenvol..."
       }
     },
 
