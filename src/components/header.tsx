@@ -136,7 +136,7 @@ export function Header() {
                 to="/#contact"
                 smooth={true}
                 onClick={handleNavLinkClick}
-                className={isHashActive("#contact") ? "active" : ""}
+                className={isHashActive("#footer") ? "active" : ""}
               >
                 {t("header.contact")}
               </HashLink>

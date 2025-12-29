@@ -3,18 +3,18 @@ import React from "react";
 export function Footer() {
   return (
     <React.Fragment>
-      <footer>
+      <footer id="footer">
         <p>
           <span>
             <a href="https://www.linkedin.com/in/lucasmramires/">LinkedIn</a>
           </span>
 
           <span>
-            <a href="">lucasmra.mires@hotmail..com </a>
+            <a href="">lucasm.ramires@hotmail.com </a>
           </span>
 
           <span>
-            <a href="">5129312031</a>
+            <a href="">555198349-7704</a>
           </span>
         </p>
       </footer>

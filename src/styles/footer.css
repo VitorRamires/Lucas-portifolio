@@ -11,25 +11,21 @@ footer {
   line-height: 25px;
 }
 
+footer span {
+  margin-left: 15px;
+}
+
 footer span a {
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   font-family: "Arial Bold";
-  color: var(--blue);
+  color: white;
   cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
 }
 
-.development-by {
-  text-align: center;
-  width: 100%;
-  color:#bebebe;
-  font-family: "Arial Light";
-  font-size: 0.7rem;
-  padding: 15px;
-  z-index: 99;
-}
-
-.development-by  a{
-  color: var(--blue);
+footer span a:hover {
+  color: var(--blue2);
 }
 
 @media screen and (max-width: 620px) {

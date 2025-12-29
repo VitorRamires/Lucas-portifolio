@@ -61,13 +61,11 @@ export function SliderProjects() {
           <img src={arrow} alt="" />
         </div>
         <Swiper
-          slidesPerView={2}
-          spaceBetween={50}
-          loop={false}
-          centeredSlides={true}
-          pagination={{
-            clickable: true,
-          }}
+          slidesPerView={1}
+          spaceBetween={0}
+          loop={true}
+          centeredSlides={false}
+
           navigation={{
             prevEl: ".prev-btn",
             nextEl: ".next-btn",
@@ -76,12 +74,7 @@ export function SliderProjects() {
           modules={[Navigation]}
           className="mySwiper"
           onSlideChange={(swiper) => storageSlideIndex(swiper.realIndex)}
-          breakpoints={{
-            350: { slidesPerView: 1 },
-            650: { slidesPerView: 2 },
-          }}
           onSwiper={(swiper) => (swiperRef.current = swiper)}
-          initialSlide={1}
         >
           {projectsInfos.map((project) => {
             return (
