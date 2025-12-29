@@ -3,7 +3,7 @@ import decorationMainImage from "@/assets/icons/main-image.svg";
 import { motion } from "framer-motion";
 import { useRef } from "react";
 import { useInView } from "motion/react";
-import { Trans, useTranslation } from "react-i18next";
+import {useTranslation } from "react-i18next";
 import bgImage from "../../../assets/images/banner-bg.webp";
 import { t } from "i18next";
 
@@ -30,9 +30,6 @@ export function Banner() {
                 Lucas <span>Ramires</span>
               </p>
               <p className="role">{t("titleBanner")}</p>
-              <p className="international-reach">
-                <Trans i18nKey="titleBanner2" components={{ span: <span /> }} />
-              </p>
             </div>
           </motion.div>
 
