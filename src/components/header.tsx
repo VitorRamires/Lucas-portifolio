@@ -6,6 +6,17 @@ import eua from "@/assets/icons/us.svg";
 import brasil from "@/assets/icons/br.svg";
 import { useTranslation } from "react-i18next";
 
+const scrollWithOffset = (el: HTMLElement) => {
+  const elementPosition = el.getBoundingClientRect().top + window.scrollY;
+  const offsetPosition =
+    elementPosition - window.innerHeight  + el.offsetHeight;
+
+  window.scrollTo({
+    top: offsetPosition,
+    behavior: "smooth",
+  });
+};
+
 export function Header() {
   const [openMenu, setOpenMenu] = useState(false);
   const location = useLocation();
@@ -36,7 +47,7 @@ export function Header() {
         const el = document.querySelector(hash);
         if (el) {
           const rect = el.getBoundingClientRect();
-          if (rect.top <= 500 && rect.bottom > 500) {
+          if (rect.top <= 200 && rect.bottom > 500) {
             found = hash;
             break;
           }
@@ -125,6 +136,7 @@ export function Header() {
               <HashLink
                 to="/#about"
                 smooth={true}
+                scroll={scrollWithOffset}
                 className={isHashActive("#about") ? "active" : ""}
                 onClick={handleNavLinkClick}
               >
