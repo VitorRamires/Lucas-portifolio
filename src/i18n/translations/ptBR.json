@@ -49,28 +49,6 @@
       "btn": "Visitar Portifólio"
     },
 
-    "services": {
-      "title": "Serviços Prestados",
-      "serviceList": {
-        "0": "Gerenciamento de Projetos e Delivery (SCRUM, Waterfall, Lean & Smart)",
-        "1": "Gerenciamento de Equipes Multidisciplinares.",
-        "2": "Treinamentos e Capacitação de Lideranças e Pré-Sales.",
-        "3": "Consultoria de Gestão Empresarial.",
-        "4": "Elaboração de Estratégias de Negócios.",
-        "5": "Implementação e Elaboração de Indicadores.",
-        "6": "Transformação Digital.",
-        "7": "Mapeamento e Melhoria de Procesos.",
-        "8": "Automação de Fluxos de Trabalho.",
-        "9": "Voluntariado para Recolocação no Mercado de Trabalho em TI."
-      }
-    },
-
-    "contact": {
-      "title": "Entre em Contato",
-      "text1": "Será um prazer conversarmos para entender seus desafios e elaborarmos uma solução para eles.",
-      "text2": "Utilize os canais abaixo para entrar em contato comigo."
-    },
-
     "project": {
       "mainTitle": "Projetos",
       "titleSegments": "Segmentos",
@@ -167,7 +145,6 @@
 
     "pageTitles": {
       "project": "Portifólio",
-      "volunteer": "Trabalho voluntário",
       "exp": "Experiências"
     },
     "experiences": {
@@ -215,30 +192,6 @@
       }
     },
 
-    "volunteer": {
-      "title1": "Mentoria de Recolocação no Mercado de Trabalho (TI)",
-      "title2": "Mentoria de Formação de Líderes",
-      "volunteerText": "Ajudo as pessoas a se recolocarem no mercado de TI, auxiliando em itens como:",
-      "volunteerText2": "Realizo mentorias para formação de coordenadores, gestores e executivos, focando em:",
-      "volunteerList": {
-        "0": "Reestruturação do perfil no LinkedIn",
-        "1": "Integrações com softwares, plataformas e sites.",
-        "2": "Criação conexões e networking com recrutadores de diversos segmentos;",
-        "3": "Dicas de como se apresentar e ter um bom desempenho em uma entrevista;",
-        "4": "Apresentação dos diversos tipos de abordagens, para diversas vagas de emprego;",
-        "5": "Apoio no entendimento da conexão entre o conhecimento da pessoa com o cargo/atribuição que ela traçou como meta;",
-        "6": "Acompanhamento de ponta a ponta o profissional, até o momento da aceitação da proposta de emprego."
-      },
-
-      "mentoringList": {
-        "0": "Mensurar atitudes em determinadas situações com clientes;",
-        "1": "Como liderar suas equipes e operações;",
-        "2": "Definição dos melhores KPIs para monitoramento de projetos;",
-        "3": "Estruturação de squads;",
-        "4": "Como amenizar situações de alto risco com stakeholders."
-      }
-    },
-
     "header": {
       "about": "Sobre",
       "contact": "Contato",
@@ -250,7 +203,6 @@
       "technologies": "Tecnologias"
     },
 
-    "helMsg": "Está precisando de ajuda? Entre em contato comigo via ",
     "axisX": "Projetos",
     "axisY": "Quantidade",
     "billions": "Bi"

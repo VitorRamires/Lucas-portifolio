@@ -49,21 +49,6 @@
       "btn": "Visit Portfolio "
     },
 
-    "services": {
-      "title": "Provided Services",
-      "serviceList": {
-        "0": "Project and Delivery Management (SCRUM, Waterfall, Lean & Smart)",
-        "1": "Multidisciplinary Team Management.",
-        "2": "Leadership, Pre-Sales Training and Qualification.",
-        "3": "Business Management Consulting.",
-        "4": "Business Strategies Development.",
-        "5": "KPI Implementation and Development.",
-        "6": "Digital Transformation.",
-        "7": "Process Mapping and Improvement.",
-        "8": "Workflow Automation.",
-        "9": "Volunteering for IT Job Market Replacement."
-      }
-    },
 
     "project": {
       "mainTitle": "Projects",
@@ -115,9 +100,9 @@
         "titleResultProject": "Results",
         "titleDescriptionClient": "About the client",
         "aboutClient": {
-          "0": "A Apple é uma das maiores empresas de tecnologia do mundo, reconhecida globalmente por sua capacidade de inovação, excelência operacional e foco em experiência do usuário. Com atuação em diversos países e operações altamente complexas, a companhia mantém padrões rigorosos de governança, eficiência e controle de processos em todas as suas áreas corporativas.",
-          "1": "A ArcelorMittal é uma das maiores empresas siderúrgicas do mundo, atuando na produção de aço e outros metais, com uma presença global em mais de 60 países. Com mais de 190.000 colaboradores, a ArcelorMittal é líder na produção de aço e oferece produtos para diversos setores, incluindo construção, automotivo, e infraestrutura. A empresa é conhecida por seu compromisso com a inovação, sustentabilidade e excelência operacional.",
-          "2": "A Petrobras é uma das maiores empresas de e petróleo do mundo, atuando em todas as etapas da cadeia de petróleo e gás, desde a exploração até a distribuição de combustíveis e derivados. Com uma presença global significativa e mais de 60 anos de experiência, a Petrobras é líder no setor energético, contribuindo para o desenvolvimento do Brasil e de outros países ao redor do mundo."
+          "0": "Apple is one of the world’s leading technology companies, globally recognized for its innovation, operational excellence, and strong focus on user experience. Operating across multiple regions with highly complex corporate structures, the company maintains rigorous standards for governance, efficiency, and process control throughout its global operations.",
+          "1": " The client is a global organization with international operations and a presence across multiple regions worldwide, operating in a highly dynamic and competitive corporate environment. Its business is distributed across several locations, supported by complex processes and a strong reliance on technology to sustain operations, decision-making, and long-term growth, requiring robust, secure, and scalable digital solutions.",
+          "2": "Petrobras is one of the world’s largest integrated energy companies and a global reference in the oil, gas, and energy sectors. With large-scale and highly complex operations, the company operates across the entire value chain — from exploration and production to refining, logistics, distribution, and corporate functions — under strict standards of governance, compliance, financial control, and operational efficiency. This environment requires robust, scalable, and highly integrated technological solutions capable of supporting mission-critical processes and high transaction volumes."
         },
         "execucao": {
           "0": "The execution involved the direct leadership of a multidisciplinary team of approximately 20 professionals, with continuous engagement and alignment with client stakeholders. The delivery model emphasized strong governance, demand prioritization, KPI tracking, and executive-level communication. Additionally, Margin Improvement Plan (MIP) initiatives were implemented to enhance financial performance, ensuring cost efficiency, delivery predictability, and alignment between scope, timelines, and quality. Close collaboration with the client enabled fast decision-making and sustained alignment with business objectives.",
@@ -161,7 +146,6 @@
 
     "pageTitles": {
       "project": "Portfolio",
-      "volunteer": "Volunteer Work",
       "exp": "Experiences"
     },
 
@@ -211,16 +195,11 @@
 
     "header": {
       "about": "About",
-      "contact": "Contact",
       "project": "Portfolio",
-      "volunteer": "Volunteer",
       "experience": "Experiences",
-      "service": "Services",
-      "home": "Home",
-      "technologies": "Technologies"
+      "home": "Home"
     },
 
-    "helMsg": "Do you need help? Contact me with ",
     "axisX": "Projects",
     "axisY": "Quantity",
     "billions": "Bi"
