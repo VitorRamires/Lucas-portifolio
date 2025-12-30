@@ -131,7 +131,7 @@
 .project-h2 {
   width: 300px;
   max-width: 100%;
-  padding: 15px 0;
+  padding: 5px 0;
   color: var(--blue);
   margin-bottom: 15px;
   border-radius: 3px;
@@ -363,6 +363,17 @@
   }
   .know-titles h2 {
     font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .all-projects .center {
+    text-align: center;
+  }
+
+  .project-content-header.show-btn .center {
+    align-items: center;
+    gap: 25px;
   }
 }
 

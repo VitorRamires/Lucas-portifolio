@@ -5,12 +5,9 @@ import outsystem from "@/assets/images/outsystem.png";
 import office from "@/assets/images/office.png";
 import oracle from "@/assets/images/oracle.png";
 import BluePrism from "@/assets/images/BluePrism.png";
-import pegasystem from "@/assets/images/pegasystem.png";
 import servicenow from "@/assets/images/servicenow.png";
-import citrix from "@/assets/images/citrix.png";
 import excel from "@/assets/images/excelicon.png";
 import devops from "@/assets/images/AzureDevOps.png";
-import freshdesk from "@/assets/images/freshdesk.png";
 import jira from "@/assets/images/jira.png";
 import trello from "@/assets/images/trello.png";
 import IA from "@/assets/images/IA.png";
@@ -53,16 +50,8 @@ export const technologies = [
     url: BluePrism,
   },
   {
-    name: "pegasystem",
-    url: pegasystem,
-  },
-  {
     name: "servicenow",
     url: servicenow,
-  },
-  {
-    name: "citrix",
-    url: citrix,
   },
   {
     name: "excel",
@@ -75,10 +64,6 @@ export const technologies = [
   {
     name: "devops",
     url: devops,
-  },
-  {
-    name: "freshdesk",
-    url: freshdesk,
   },
   {
     name: "trello",
