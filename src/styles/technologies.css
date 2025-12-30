@@ -41,15 +41,6 @@
   height: auto;
 }
 
-.data img,
-.IA img,
-.devops img,
-.fullstack img,
-.ux img,
-.powerapps img,
-.infra img {
-  width: 90px;
-}
 
 @media screen and (max-width: 1092px) {
   .tech-box {

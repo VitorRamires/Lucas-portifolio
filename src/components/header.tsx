@@ -159,15 +159,6 @@ export function Header() {
                 {t("header.experience")}
               </HashLink>
             </li>
-            <li>
-              <HashLink
-                to="/technologies"
-                className={isPathActive("/technologies") ? "active" : ""}
-                onClick={handleNavLinkClick}
-              >
-                {t("header.technologies")}
-              </HashLink>
-            </li>
           </ul>
         </nav>
       </div>

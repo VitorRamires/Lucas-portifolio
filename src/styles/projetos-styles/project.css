@@ -216,8 +216,8 @@
   border-radius: 10px;
 }
 
-.tech-related-wrapper img {
-  width: 200px;
+.related-tech img {
+  width: 150px;
   max-width: 90%;
   height: auto;
 }

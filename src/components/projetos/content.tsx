@@ -80,6 +80,8 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
                     <p>{t(actualProject.objetivo)}</p>
                   </div>
 
+                   <div className="separated-line"></div>
+
                   <div className="challenge-project m-1">
                     <h2 className="project-h2">
                       {t("projectsInfo.description.titleChallengeProject")}
@@ -87,12 +89,16 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
                     <p>{t(actualProject.desafio)}</p>
                   </div>
 
+                   <div className="separated-line"></div>
+
                   <div className="execution-project m-1">
                     <h2 className="project-h2">
                       {t("projectsInfo.description.titleExecutionProject")}
                     </h2>
                     <p>{t(actualProject.execucao)}</p>
                   </div>
+
+                   <div className="separated-line"></div>
 
                   <div className="results-project m-1">
                     <h2 className="project-h2">
@@ -109,7 +115,7 @@ export function Content({ actualSlide, showFixedButtons }: ActualSlide) {
                           (tech, index) => {
                             return (
                               <div className="related-tech" key={index}>
-                                <img src={tech} alt="" />
+                                <img src={tech} alt="" className={`${tech.split('/').pop()?.split('.')[0] ?? ''}`} />
                               </div>
                             );
                           }
