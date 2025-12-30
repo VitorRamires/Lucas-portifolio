@@ -8,6 +8,8 @@
   align-items: center;
   justify-content: center;
   gap: 55px;
+  width: 550px;
+  margin: 0 auto;
 }
 
 .client-wrapper h2 {
