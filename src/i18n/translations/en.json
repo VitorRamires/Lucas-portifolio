@@ -6,47 +6,19 @@
     "aboutTitle": "About me",
     "aboutInfo": {
       "resume": "Professional with a solid career in operations, project, and delivery management, with experience in both domestic and international environments, serving large enterprise clients across Latin America, US, Europe, and Asia. I have a strong ability to connect strategy, governance, and execution, leading complex operations with focus on predictability, operational efficiency, profitability, and account expansion. I consistently operate across strategic and financial planning, P&L management, corporate governance, contract management, portfolio management (PMO), and risk and compliance management, in addition to having solid experience in process structuring and continuous improvement, KPI definition and performance monitoring, digital transformation, and new business development. I lead multidisciplinary teams and managers, engage directly in executive-level negotiations, pricing strategy, proposals and budgeting, and deliver corporate training and executive mentoring.",
-      "results": {
-        "0": "Led the implementation of e-commerce solutions for companies, generating over R$2.4 million in annual revenue.",
-        "1": "Managed TCS’s pioneering HyperAutomation contract with Petrobras.",
-        "2": "Oversaw a global project that resulted in savings of over R$5.78 billion for an oil and gas client, including more than R$120 million saved within just three weeks.",
-        "3": "Achieved a financial margin improvement of over 400%.",
-        "4": "Reduced more than 2 million work hours for clients through process automation initiatives."
-      },
       "skills": {
-        "softSkills": {
-          "0": "Communication and Public Speaking",
-          "1": "Conflict Management",
-          "2": "Conflict Management",
-          "3": "Team Management and Leadership",
-          "4": "Emotional Intelligence",
-          "5": "Continuous Improvement",
-          "6": "Tactical Relationship Vision",
-          "7": "Productivity"
-        },
         "hardSkills": {
-          "0": "COE, ITIL & BPM",
-          "1": "Contracts",
-          "2": "Financial Control",
-          "3": "Process Definition and Improvement",
-          "4": "Estimates, Goals and KPIs",
-          "5": "Financial Strategy",
-          "6": "1-1 Feedback",
-          "7": "Delivery Flow",
-          "8": "MySQL, Python, Javascript & PHP",
-          "9": "Client Negotiation",
-          "10": "PMO, PDCA & SDLC",
-          "11": "Pre-Sales, Financial Reports",
-          "12": "Scrum, Kanban, Lean, Waterfall",
-          "13": "Pricing and Budgeting",
-          "14": "Digital Transformation",
-          "15": "Training and Mentoring"
+          "financialManagement": "Financial Management",
+          "kpis": "KPIs",
+          "governance": "Governance",
+          "pmo": "Project Management Office",
+          "business": "Business",
+          "negotiation": "Negotiation",
+          "strategicPlanning": "Strategic Planning",
+          "corporateCommunication": "Corporate Communication",
+          "delivery": "Delivery",
+          "operations": "Operations"
         }
-      },
-      "buttons": {
-        "btnResume": "Resume",
-        "btnResults": "Results",
-        "btnSkills": "Skills"
       },
       "extra": {
         "expDetail": "Experience: <span>+10 years</span>",
@@ -59,6 +31,7 @@
       }
     },
 
+    "cases": "Main Cases",
     "techTitle": "Core Technology",
     "techTitleHome": "Technologies",
 
@@ -90,12 +63,6 @@
         "8": "Workflow Automation.",
         "9": "Volunteering for IT Job Market Replacement."
       }
-    },
-
-    "contact": {
-      "title": "Get in Touch",
-      "text1": "It will be a pleasure to discuss your challenges and develop a tailored solution for them.",
-      "text2": "Please use the channels below to get in touch with me."
     },
 
     "project": {
@@ -239,28 +206,6 @@
         "6": {
           "0": "Prepared operational documentation and standards, managed financial resources, accounts payable, and monthly financial reporting. Strategically analyzed the Brazilian market to identify opportunities across sectors for product placement and guided commercial prospecting. Built sales metrics and analyzed management reports for decision-making based on channels, relationship strategies, sales cycle efficiency, and portfolio alignment. Focused on market need analysis and continuous operational improvement, ensuring product versioning and alignment with niche-specific demands. Actively involved in client and supplier prospecting and conducted consultative sales of customized products for targeted audiences. Experienced in continuous improvement planning, KPI definition and monitoring, and strategic product pricing to maximize competitiveness and profit margins."
         }
-      }
-    },
-
-    "volunteer": {
-      "title1": "Job Market Mentoring (IT)",
-      "title2": "Leadership Training Mentoring",
-      "volunteerText": "I support individuals re-entering the IT job market by assisting with activities such as:",
-      "volunteerText2": "I provide mentorship for the development of coordinators, managers, and executives, focusing on:",
-      "volunteerList": {
-        "0": "LinkedIn profile restructuring.",
-        "1": "Creating connections and networking with recruiters from various sectors.",
-        "2": "Providing tips on how to present oneself and perform effectively in interviews.",
-        "3": "Presenting various approaches tailored to different job roles.",
-        "4": "Offering support in aligning the individual’s knowledge with their desired position or career path.",
-        "5": "Conducting end-to-end professional follow-up until a job offer is accepted."
-      },
-      "mentoringList": {
-        "0": "Measuring attitudes in specific customer-facing situations;",
-        "1": "How to lead your teams and manage operations effectively;",
-        "2": "Defining the most relevant KPIs for project monitoring;",
-        "3": "Structuring high-performance squads;",
-        "4": "How to mitigate high-risk situations involving stakeholders."
       }
     },
 

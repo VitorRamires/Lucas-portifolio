@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { Footer } from "../footer";
+import { Contact } from "../footer";
 import { Activity } from "./atuacao";
 import { SliderProjects } from "./slider_projects";
 import { motion } from "framer-motion";
@@ -39,7 +39,7 @@ export function Project() {
       <div className="all-projects">
         <SliderProjects />
       </div>
-      <Footer />
+      <Contact />
     </>
   );
 }

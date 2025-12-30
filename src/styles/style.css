@@ -1,14 +1,12 @@
 @import url(global.css);
 @import url(header.css);
 @import url(./banner-styles/banner.css);
-@import url(./banner-styles/bannerCards.css);
 @import url(about.css);
-@import url(technologies.css);
 @import url(projects_home.css);
-@import url(services.css);
 @import url(contact.css);
 @import url(projetos-styles/project.css);
 @import url(experiences.css);
-@import url(volunteer.css);
 @import url(footer.css);
-@import url(highlights.css)
+@import url(highlights.css);
+@import url(clients.css);
+@import url(skills.css);

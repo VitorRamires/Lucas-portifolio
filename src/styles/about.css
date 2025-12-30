@@ -19,19 +19,6 @@
   color: var(--white);
 }
 
-.skills,
-.results,
-.resume {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 25px 0;
-  display: none;
-  transition: 0.2s ease-out;
-  padding: 0 10px;
-}
-
 .skills {
   padding-bottom: 25px;
 }
@@ -111,11 +98,13 @@
 
 .about-panel {
   position: relative;
-  height: 410px;
   padding: 0 10px;
   overflow: auto;
 }
 
+.resume {
+  margin: 10px 0 45px 0;
+}
 
 .extra-details {
   width: calc(1850px / 1.5);
@@ -236,6 +225,34 @@
 
 .change-btn p {
   margin: 0;
+}
+
+.resumes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 45px;
+  padding: 0 10px;
+}
+
+.resumes button {
+  max-width: 100%;
+  width: 180px;
+  padding: 15px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: linear-gradient(90deg, var(--blue), var(--blue2), var(--blue2));
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  transition: 0.2s;
+}
+
+.resumes button:hover {
+  transform: scale(1.05);
 }
 
 @media screen and (max-width: 1143px) {

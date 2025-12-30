@@ -1,4 +1,4 @@
-import { Footer } from "../footer.tsx";
+import { Contact } from "../footer.tsx";
 import { ExperiencieList } from "./experince-list.tsx";
 import { motion } from "framer-motion";
 import { useTranslation } from "react-i18next";
@@ -30,7 +30,7 @@ export function Experiences() {
               <ExperiencieList />
             </div>
           </div>
-          <Footer />
+          <Contact />
         </div>
       </section>
     </>

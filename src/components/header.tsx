@@ -29,7 +29,7 @@ export function Header() {
   }
 
   useEffect(() => {
-    const sections = ["#home", "#about", "#contact"];
+    const sections = ["#home", "#about"];
     function onScroll() {
       let found = "#home";
       for (const hash of sections) {
@@ -129,16 +129,6 @@ export function Header() {
                 onClick={handleNavLinkClick}
               >
                 {t("header.about")}
-              </HashLink>
-            </li>
-            <li>
-              <HashLink
-                to="/#contact"
-                smooth={true}
-                onClick={handleNavLinkClick}
-                className={isHashActive("#footer") ? "active" : ""}
-              >
-                {t("header.contact")}
               </HashLink>
             </li>
             <li>

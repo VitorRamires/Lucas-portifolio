@@ -6,46 +6,19 @@
     "aboutTitle": "Sobre mim",
     "aboutInfo": {
       "resume": "Profissional com carreira consolidada em gestão de operações, projetos e delivery, com atuação em ambientes nacionais e internacionais, além de experiência com clientes de grande porte na América Latina, Estados Unidos, Europa e Ásia. Possuo forte capacidade de conectar estratégia, governança e execução, liderando operações complexas com foco em previsibilidade, eficiência operacional e rentabilidade e expansão de contas. Atuo de forma consistente em planejamento estratégico e financeiro, gestão de P&L, governança corporativa, gestão contratual, gestão de portfólio (PMO) e gestão de riscos e compliance, além de ter sólida experiência na estruturação e melhoria de processos, definição e acompanhamento de KPIs, transformação digital e desenvolvimento de novos negócios. Lidero equipes multidisciplinares e gestores, atuo diretamente em negociações executivas, precificação, propostas e orçamentos, além da realização de treinamentos e mentorias corporativas.",
-      "results": {
-        "0": "Implementação de E-Commerce em empresas, rentabilizando mais de R$ 2,4 milhões anuais.",
-        "1": "Gestão do contrato pioneiro da TCS com a Petrobras, em HiperAutomação.",
-        "2": "Gestor de case global de projeto onde economizou-se mais de R$ 5.78 bilhões de reais em cliente de óleo e gás, além de economizar mais de R$ 120 milhões de reais em apenas 3 semanas.",
-        "3": "Melhoria de margens financeiras na ordem de +400%.",
-        "4": "Redução de +2M de horas de trabalho com automações de processos em clientes."
-      },
       "skills": {
-        "softSkills": {
-          "0": "Comunicação e Oratória",
-          "1": "Gestão de Conflitos",
-          "2": "Gestão e Liderança de Equipes",
-          "3": "Inteligência Emocional",
-          "4": "Melhoria Contínua",
-          "5": "Visão Tática de Relacionamento",
-          "6": "Produtividade"
-        },
         "hardSkills": {
-          "0": "COE, ITIL & BPM",
-          "1": "Contratos",
-          "2": "Controle Financeiro",
-          "3": "Definição e Melhoria de Processos",
-          "4": "Estimativas, Metas e KPIs",
-          "5": "Estratégia Financeira",
-          "6": "Feedback 1-1",
-          "7": "Fluxo de Entrega",
-          "8": "MySQL, Python, Javascript & PHP",
-          "9": "Negociação com Clientes",
-          "10": "PMO, PDCA & SDLC",
-          "11": "Pré-Vendas, Reports Financeiros",
-          "12": "Scrum, Kanban, Lean, Waterfall",
-          "13": "Precificação e Orçamento",
-          "14": "Transformação Digital",
-          "15": "Treinamentos e Mentorias"
+          "financialManagement": "Gestão Financeira",
+          "kpis": "KPIs",
+          "governance": "Governança",
+          "pmo": "PMO (Project Management Office)",
+          "business": "Negócios",
+          "negotiation": "Negociação",
+          "strategicPlanning": "Planejamento Estratégico",
+          "corporateCommunication": "Comunicação Corporativa",
+          "delivery": "Delivery",
+          "operations": "Operações"
         }
-      },
-      "buttons": {
-        "btnResume": "Resumo",
-        "btnResults": "Resultados",
-        "btnSkills": "Skills"
       },
       "extra": {
         "expDetail": "Expêriencia: <span>+10 anos</span>",
@@ -58,6 +31,7 @@
       }
     },
 
+    "cases": "Principais Cases",
     "techTitle": "Tecnologia Core",
     "techTitleHome": "Interação com Tecnologias",
 

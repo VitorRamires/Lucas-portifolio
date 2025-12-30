@@ -1,0 +1,27 @@
+.skills-wrapper {
+  text-align: center;
+  margin: 100px auto;
+}
+
+.skills-wrapper h2 {
+  margin-bottom: 45px;
+  font-size: 2rem;
+  color: var(--blue);
+}
+
+.skills ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  text-align: center;
+}
+
+.skills ul li {
+  width: 100%;
+  background-color: rgb(31, 31, 31);
+  padding: 15px 3px;
+  color: white;
+  box-shadow: 5px 5px 2px 0 rgba(0, 0, 0, 0.349);
+  border-left: 1px solid var(--blue);
+}
+

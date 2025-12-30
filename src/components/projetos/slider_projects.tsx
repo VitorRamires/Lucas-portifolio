@@ -62,7 +62,7 @@ export function SliderProjects() {
         </div>
         <Swiper
           slidesPerView={1}
-          spaceBetween={0}
+          spaceBetween={150}
           loop={true}
           centeredSlides={false}
 

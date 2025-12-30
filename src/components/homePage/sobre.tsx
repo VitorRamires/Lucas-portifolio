@@ -1,9 +1,11 @@
 import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { Trans, useTranslation } from "react-i18next";
+import curriculum from "../../assets/resumes/Lucas Ramires - Curriculo.pdf";
+import curriculumEN from "../../assets/resumes/Lucas Ramires - Resume.pdf";
 
 export function Sobre() {
-  const [aboutOption, ] = useState("resumo");
+  const [aboutOption] = useState("resumo");
   const ref = useRef<HTMLDivElement | null>(null);
   const { t } = useTranslation();
 
@@ -11,8 +13,6 @@ export function Sobre() {
     new Date().getFullYear() -
     1993 -
     (new Date() < new Date(`${new Date().getFullYear()}-07-21`) ? 1 : 0);
-
-
 
   return (
     <>
@@ -27,7 +27,6 @@ export function Sobre() {
 
         <div className="about-decoration"></div>
 
-        
         <div className="about-panel">
           <div
             className={`resume ${aboutOption === "resumo" ? "optionOn" : ""}`}
@@ -35,6 +34,23 @@ export function Sobre() {
           >
             <p>{t("aboutInfo.resume")}</p>
           </div>
+        </div>
+
+        <div className="resumes">
+          <a
+            href={curriculum}
+            download="Curriculo Desenvolvedor - Vitor Ramires"
+            target="#"
+          >
+            <button>Currículo - PT/BR</button>
+          </a>
+          <a
+            href={curriculumEN}
+            download="Resume Developer - Vitor Ramires"
+            target="#"
+          >
+            <button>Resume - EN</button>
+          </a>
         </div>
 
         <div className="extra-details">
@@ -63,8 +79,6 @@ export function Sobre() {
             </span>
           </p>
         </div>
-
-
       </div>
     </>
   );

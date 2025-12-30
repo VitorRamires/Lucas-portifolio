@@ -90,6 +90,17 @@
   .info-project-home h2 {
     font-size: 2rem;
   }
+
+  .projects-home {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 550px;
+  }
+
+  .info-project-home {
+    height: unset;
+  }
 }
 
 @media screen and (max-width: 480px) {
