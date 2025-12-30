@@ -31,7 +31,7 @@
       }
     },
 
-    "cases": "Main Cases",
+    "cases": "Clients Served",
     "techTitle": "Core Technology",
     "techTitleHome": "Technologies",
 
@@ -48,7 +48,6 @@
       "text": "I invite you to explore my portfolio of real-world projects, showcasing the clients I have supported through project management and digital transformation consultancy, along with a summary of the key initiatives and outcomes delivered for each.",
       "btn": "Visit Portfolio "
     },
-
 
     "project": {
       "mainTitle": "Projects",
@@ -142,11 +141,12 @@
 
     "clientTitle": "Client",
     "segmentTitle": "Segment",
-    "knowProjects": "Project Portifolio & Accounts Managed",
+    "knowProjects": "Main Clients",
 
     "pageTitles": {
       "project": "Portfolio",
-      "exp": "Experiences"
+      "exp": "Experiences",
+      "highlightsTitle": "Results Achieved"
     },
 
     "experiences": {

@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import { projectsInfos } from "../../utils/projects-infos";
+import { allProjects } from "../../utils/projects-infos";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
@@ -11,16 +11,16 @@ export function Clientes() {
       <div className="clients">
         <Swiper
           modules={[Autoplay]}
-          slidesPerView={2}
-          spaceBetween={50}
+          slidesPerView={3}
+          spaceBetween={10}
           loop={true}
-          centeredSlides={false}
+          centeredSlides={true}
           parallax={true}
           autoplay={{ delay: 3000 }}
           speed={3000}
           className="mySwiper"
         >
-          {projectsInfos.map((client, index) => {
+          {allProjects.map((client, index) => {
             return (
               <SwiperSlide>
                 <div className="client-item" key={index}>

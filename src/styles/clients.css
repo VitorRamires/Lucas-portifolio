@@ -8,8 +8,16 @@
   align-items: center;
   justify-content: center;
   gap: 55px;
-  width: 550px;
+  width: 750px;
   margin: 0 auto;
+}
+
+.clients .swiper-slide-active {
+  transform: scale(1.08);
+}
+
+.clients .swiper {
+  padding: 30px 0 !important;
 }
 
 .client-wrapper h2 {

@@ -31,7 +31,7 @@
       }
     },
 
-    "cases": "Principais Cases",
+    "cases": "Clientes Atendidos",
     "techTitle": "Tecnologia Core",
     "techTitleHome": "Interação com Tecnologias",
 
@@ -141,11 +141,12 @@
 
     "clientTitle": "Cliente",
     "segmentTitle": "Segmento",
-    "knowProjects": "Portifólio de Projetos e Contas Gerenciadas",
+    "knowProjects": "Principais Clientes",
 
     "pageTitles": {
       "project": "Portifólio",
-      "exp": "Experiências"
+      "exp": "Experiências",
+      "highlightsTitle": "Resultados Obtidos" 
     },
     "experiences": {
       "enterprises": {

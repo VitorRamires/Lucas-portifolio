@@ -1,18 +1,47 @@
 // Importações das imlogo
-
+import americanexpress from "@/assets/icons/AEX.svg";
 import apple from "@/assets/icons/apple.svg";
 import arcelormittal from "@/assets/icons/arcelor.svg";
+import autoliv from "@/assets/icons/autoliv.svg";
+import avery from "@/assets/icons/avery.svg";
+import exlon from "@/assets/icons/exlon.svg";
+import fairisaac from "@/assets/icons/fair.svg";
+import frontier from "@/assets/icons/frontier.svg";
+import boticario from "@/assets/icons/boticario.svg";
+import nextera from "@/assets/icons/NEE.svg";
 import petrobras from "@/assets/icons/petrobras.svg";
+import roche from "@/assets/icons/roche.svg";
+import selective from "@/assets/icons/selectivelogo.svg";
+import siteimprove from "@/assets/icons/siteimprove.svg";
+import triptri from "@/assets/icons/triptri-placeholder.svg";
+import yara from "@/assets/icons/yara.svg";
 
 import eua from "@/assets/icons/us.svg";
 import brasil from "@/assets/icons/br.svg";
-
 import { technologies } from "./technologies";
 
 const techsData = technologies.reduce((acc, tech) => {
   acc[tech.name] = tech.url;
   return acc;
 }, {} as { [key: string]: string });
+
+export const allProjects = [
+  { projeto: "American Express", logo: americanexpress },
+  { projeto: "Apple", logo: apple },
+  { projeto: "Autoliv", logo: autoliv },
+  { projeto: "Avery Dennison", logo: avery },
+  { projeto: "Exelon", logo: exlon },
+  { projeto: "Fair Isaac", logo: fairisaac },
+  { projeto: "Frontier", logo: frontier },
+  { projeto: "Grupo Boticário", logo: boticario },
+  { projeto: "NextEra", logo: nextera },
+  { projeto: "Petrobras", logo: petrobras },
+  { projeto: "Roche", logo: roche },
+  { projeto: "Selective", logo: selective },
+  { projeto: "Site Improve", logo: siteimprove },
+  { projeto: "Trip Tri", logo: triptri },
+  { projeto: "Yara Internacional", logo: yara },
+];
 
 export const projectsInfos = [
   {
