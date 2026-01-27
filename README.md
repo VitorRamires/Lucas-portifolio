@@ -1,5 +1,3 @@
-<img width="1903" height="900" alt="image" src="https://github.com/user-attachments/assets/d7c91fcf-a569-4559-ab5a-2fc14309d2db" />
-
 <h2>LM Consultoria</h2>
 <br />
 <h3>🎯 Objetivo</h3>
