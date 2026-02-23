@@ -57,18 +57,18 @@ Através de uma curadoria cuidadosa de experiências, competências e conquistas
 <br />
 
 <h3>🚀 Como rodar:</h3>
-```bash
+
+<pre><code>
 # Instale as dependências
 npm install
 
 # Inicie o servidor de desenvolvimento
 npm run dev
-```
+</code></pre>
 
 <br />
 
 ✒️ Autores
 
-<br />
 
 Vitor Martins Ramires - Desenvolvedor principal
