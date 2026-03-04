@@ -11,8 +11,15 @@ export function Clientes() {
       <div className="clients">
         <Swiper
           modules={[Autoplay]}
-          slidesPerView={3}
           spaceBetween={10}
+          breakpoints={{
+            460: {
+              slidesPerView: 2,
+            },
+            768: {
+              slidesPerView: 3,
+            },
+          }}
           loop={true}
           centeredSlides={true}
           parallax={true}
@@ -22,8 +29,8 @@ export function Clientes() {
         >
           {allProjects.map((client, index) => {
             return (
-              <SwiperSlide>
-                <div className="client-item" key={index}>
+              <SwiperSlide key={index}>
+                <div className="client-item">
                   <img src={client.logo} />
                   <p>{client.projeto}</p>
                 </div>

@@ -9,6 +9,7 @@
   justify-content: center;
   gap: 55px;
   width: 750px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -79,16 +80,12 @@
 }
 
 @media screen and (max-width: 680px) {
-  .clients {
-    flex-direction: column;
-  }
-
   .client-item {
     width: 100%;
   }
 
   .clients img {
-    width: 100%;
+    width: 85%;
   }
 
   .client-wrapper h2 {
