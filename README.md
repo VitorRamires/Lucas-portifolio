@@ -1,26 +1,32 @@
-<h2>CodeLeap Network</h2>
+Me faz um readme de tudo, com base nista estrutura
+
+<h2>LM Consultoria</h2>
 <br />
 <h3>🎯 Objetivo</h3>
-Aplicação de feed social onde usuários podem criar, editar e deletar posts, com suporte a paginação via botão de Load More consumindo a API REST da CodeLeap.
-<br />
+Este site foi desenvolvido com o propósito de apresentar, de forma objetiva e estratégica, a trajetória profissional de um Gerente de Projetos com atuação sólida e resultados comprovados em ambientes nacionais e internacionais.
+Através de uma curadoria cuidadosa de experiências, competências e conquistas, este material visa ampliar a visibilidade e relevância do profissional no mercado global, destacando sua capacidade de liderar iniciativas complexas, promover inovação e entregar valor sustentável às organizações.
 <br />
 <h3>🛠️ Construído com:</h3>
 <ul>
-  <li>JavaScript - linguagem base do projeto</li>
+  <li>Typescript - linguagem base do projeto</li>
   <li>React.js - Framework</li>
-  <li>Context API - Gerenciamento de estado global</li>
-  <li>date-fns - Formatação de datas relativas</li>
-  <li>Vite - Bundler e servidor de desenvolvimento</li>
+  <li>Swiper - Biblioteca de slider</li>
+  <li>Motion Frame - Biblioteca de animação</li>
+  <li>i18n - Internacionalização da aplicação</li>
+  <li>React Router - Gerenciador de rotas React</li>
 </ul>
 <br />
 <h3>✨ Funcionalidades:</h3>
 <ul>
-  <li>📄 Listagem de posts consumindo a API REST da CodeLeap</li>
-  <li>➕ Criação de posts com atualização instantânea do feed</li>
-  <li>✏️ Edição de posts com atualização local do estado</li>
-  <li>🗑️ Deleção de posts com remoção imediata da lista</li>
-  <li>📦 Paginação de 5 em 5 posts com botão Load More</li>
-  <li>🚫 Botão Load More some automaticamente ao atingir o fim da lista</li>
+  <li>🌐 Suporte a múltiplos idiomas (PT e EN) via i18n</li>
+  <li>🎞️ Animações de entrada nas seções com Motion Framer</li>
+  <li>🖼️ Slider de conteúdo com Swiper</li>
+  <li>🧭 Navegação entre páginas com React Router</li>
+  <li>👤 Seção Hero com apresentação profissional</li>
+  <li>📖 Seção Sobre com trajetória e experiências</li>
+  <li>💼 Seção de Projetos e Cases</li>
+  <li>📬 Seção de Contato</li>
+  <li>📊 Visualização de dados com gráficos (Charts)</li>
 </ul>
 <br />
 <h3>🚀 Como rodar:</h3>
