@@ -1,5 +1,3 @@
-Me faz um readme de tudo, com base nista estrutura
-
 <h2>LM Consultoria</h2>
 <br />
 <h3>🎯 Objetivo</h3>
